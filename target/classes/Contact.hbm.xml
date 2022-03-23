@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ma.fstm.ilisi.ges_contact.contactmegaservlet2.model.bo.Contact" table="contact"
+           schema="dbContactHiber">
+        <id name="id" column="id"/>
+        <property name="nom" column="nom"/>
+        <property name="telephone" column="telephone"/>
+        <property name="tType" column="t_type"/>
+        <property name="adresse" column="adresse"/>
+    </class>
+</hibernate-mapping>
